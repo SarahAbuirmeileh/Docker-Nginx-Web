@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nginx-web:
+    image: sarahabuirmeileh/nginx-website:latest
+    ports:
+      - "80:80"
+    restart: always    
